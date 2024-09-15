@@ -6,7 +6,7 @@ import FooterVue from './components/FooterVue.vue';
 </script>
 
 <template>
-  <div class="bg-[#011627] border border-border rounded-lg h-[calc(100vh_-_40px)] relative ">
+  <div class="bg-[#011627] custom-container border border-border rounded-lg h-[calc(100vh_-_40px)] w-[calc(100%_-_40px)] top-5 left-5 max-lg:fixed relative">
     <Header />
     <RouterView />
     <FooterVue />
