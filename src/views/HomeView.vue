@@ -26,7 +26,7 @@ onBeforeUnmount(() => {
       <h5 class="text-[#4D5BCE] text-[32px] mt-0 mb-0 flex gap-2 ">><span class="animated-text">Fullstack Developer</span></h5>
       <p class="text-[#607B96] text-base mt-8">// building intuitive <span class="text-[#E99287]">web</span> and <span class="text-[#E99287]">mobile</span> apps</p>
       <p class="text-[#607B96] text-base">// you can also see it on my Github page</p>
-      <p class="text-sm font-normal text-[#4D5BCE]">const <span class="text-[#43D9AD]">githubLink</span> <span class="text-white">=</span> <a href="https://github.com/Polymath0033/my-portfolio"  class="text-[#E99287]">“https://github.com/Polymath0033/my-portfolio”</a></p>
+      <p class="text-sm font-normal text-[#4D5BCE]">const <span class="text-[#43D9AD]">githubLink</span> <span class="text-white">=</span> <a href="https://github.com/Polymath0033/my-portfolio" target="_blank"  class="text-[#E99287]">“https://github.com/Polymath0033/my-portfolio”</a></p>
     </section>
     <section class="relative md:pr-[100px] min-[1100px]:pr-[170px] hidden md:block">
        <img class="absolute -left-28 -top-32 z-10" src="../assets/Green.png" alt="green">
