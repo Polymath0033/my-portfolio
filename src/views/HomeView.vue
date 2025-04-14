@@ -20,7 +20,7 @@ onBeforeUnmount(() => {
 
 <template>
   <main class="flex justify-center items-center h-[calc(100%_-_81px)] gap-4">
-    <section class="w-full flex flex-col gap-0 md:pl-[200px] min-[1100px]:pl-[250px]">
+    <section class="w-full flex flex-col gap-0 md:pl-[220px] min-[1100px]:pl-[270px]">
       <p class="md:text-sm min-[1000px]:text-lg font-normal text-[#E5E9F0] mt-0 mb-0">Hi all. I am</p>
       <h2 class="text-[#E5E9F0] md:text-[40px] min-[1000px]:text-[62px] font-light mt-0 mb-0">Yusuf Olosan</h2>
       <h5 class="text-[#4D5BCE] text-[32px] mt-0 mb-0 flex gap-2 ">><span class="animated-text">Fullstack Developer</span></h5>

@@ -2,7 +2,7 @@
 console.log('Hello from SideLayout');
 </script>
 <template>
-    <aside class="md:w-[200px] min-[1100px]:w-[250px] border-r border-border h-full " >
+    <aside class="relative left-0 z-50 md:w-[220px] min-[1100px]:w-[270px] border-r border-border h-full" >
         <slot/>
     </aside>
 </template>

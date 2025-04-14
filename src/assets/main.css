@@ -7,32 +7,35 @@
 *,
 *::after,
 *::before {
-    font-family: "Fira Code";
+  font-family: "Fira Code";
 }
 
 body {
-    background-color: #010c15;
-    color: white;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    /* padding: 69px; */
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  background-color: #010c15;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  /* padding: 69px; */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-
+#app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
 @media screen and (min-width: 1200px) and (min-height: 800px) {
-    .custom-container {
-        max-width: 1280px;
-        margin: auto !important;
-        max-height: 80vh;
-        /* padding: 0 20px; */
-    }
+  .custom-container {
+    max-width: 1280px;
+    margin: auto !important;
+    max-height: 80vh;
+    /* padding: 0 20px; */
+  }
 }
-
 
 /* 
 #app {

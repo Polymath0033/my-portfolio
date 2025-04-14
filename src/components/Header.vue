@@ -4,9 +4,9 @@ import { RouterLink } from 'vue-router';
 <template>
     <header class="flex justify-between w-full border-b border-border items-center ">
         <nav class="flex items-center h-full">
-            <p
-                class="text-base px-3 py-2 text-[#607B96] border border-border rounded-tl-lg border-t-0 border-b-0 border-l-0 md:w-[200px] min-[1100px]:w-[250px]">
-                yusuf-olosan</p>
+            <RouterLink to="/"
+                class="text-base px-3 py-2 text-[#607B96] border border-border rounded-tl-lg border-t-0 border-b-0 border-l-0 md:w-[220px] min-[1100px]:w-[270px]">
+                yusuf-olosan</RouterLink>
             <nav class="flex h-full">
                 <RouterLink to="/" class="py-2 px-3 border border-border border-t-0 border-b-0">_hello</RouterLink>
                 <RouterLink to="/about-me" class="py-2 px-3 border border-border border-t-0 border-b-0">_about-me
@@ -28,7 +28,7 @@ header a {
     color: #607B96;
 }
 
-header a.router-link-exact-active {
+header nav:not(:first-child) a.router-link-exact-active {
     color: #fff;
     border-bottom-width: 3px;
     border-bottom-color: #FEA55F;
